@@ -43,7 +43,7 @@ app.set('view engine', 'handlebars');
 app.set('port', 3000);
 
 //create an HTTPS listener
-https.createServer(options, app).listen();
+https.createServer(options, app).listen(443);
 
 //get user Data from certificate for main page
 //This will also render a response indicating
